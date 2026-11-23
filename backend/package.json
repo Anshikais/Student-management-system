@@ -1,0 +1,33 @@
+{
+  "name": "joineazy-backend",
+  "version": "1.0.0",
+  "description": "Joineazy Backend API - Student, Group & Assignment Management System",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "db:start": "node database/start-pg.js",
+    "db:init": "node database/migrate.js",
+    "db:seed": "node database/seed.js",
+    "test:auth": "node test-auth.js",
+    "test:groups": "node test-groups.js",
+    "test:assignments": "node test-assignments.js",
+    "test:submissions": "node test-submissions.js",
+    "test:e2e": "node test-e2e-workflow.js",
+    "test:all": "node test-auth.js && node test-groups.js && node test-assignments.js && node test-submissions.js && node test-e2e-workflow.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "embedded-postgres": "^16.16.0-beta.19",
+    "nodemon": "^3.1.9",
+    "pg-mem": "^3.0.14"
+  }
+}
