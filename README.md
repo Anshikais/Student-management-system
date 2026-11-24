@@ -590,18 +590,6 @@ The database contains pre-configured test accounts for instant evaluation:
 
 ---
 
-## 15. Screenshots & UI Previews
-
-*(Placeholders for application UI screenshots)*
-
-| Screen | Description |
-| :--- | :--- |
-| ![Student Dashboard Placeholder](https://via.placeholder.com/800x450.png?text=Joineazy+Student+Dashboard+Preview) | **Student Dashboard**: Real-time KPI metrics, group progress bar, and assignment cards. |
-| ![Two-Step Confirmation Modal Placeholder](https://via.placeholder.com/800x450.png?text=Two-Step+OneDrive+Submission+Modal) | **Two-Step Submission Modal**: Verification prompt, OneDrive link shortcut, and leader certification. |
-| ![Admin Monitoring Placeholder](https://via.placeholder.com/800x450.png?text=Professor+Monitoring+and+Tracking+Grid) | **Professor Portal**: Submission tracking matrix, student confirmations, and analytics dial. |
-
----
-
 ## 16. License & Author
 
 - **Project**: Joineazy Internship Technical Assignment
